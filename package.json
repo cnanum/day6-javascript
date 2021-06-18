@@ -1,0 +1,19 @@
+{
+  "name": "day6-js-prepare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind:build": "tailwindcss -o ./dist/tailwind.css",
+    "tailwind:dev": "tailwindcss -o ./dist/tailwind.css --watch",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.0"
+  }
+}
